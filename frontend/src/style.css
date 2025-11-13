@@ -1,0 +1,173 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: black;
+  background-image: url("/1140x641.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1,
+h3 {
+  color: white;
+}
+
+form h3 {
+  color: black;
+}
+
+#phone-page-div h1 {
+  color: goldenrod;
+}
+
+form {
+  background: goldenrod;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #f4e896;
+  color: black;
+}
+
+textarea {
+  height: 60px;
+  resize: vertical;
+}
+
+input[type="submit"],
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"]:hover,
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Force purple buttons for contact actions */
+.contact-card button {
+  background-color: #663399 !important;
+}
+
+.contact-card button:hover {
+  background-color: #553580 !important;
+}
+
+/* Purple styling for Save Contact button */
+input[type="submit"][value="Save Contact"] {
+  background-color: #663399 !important;
+}
+
+input[type="submit"][value="Save Contact"]:hover {
+  background-color: #553580 !important;
+}
+
+.contact-card {
+  background: goldenrod;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card p {
+  margin: 10px 0;
+  color: black;
+}
+
+.contact-card input[type="text"],
+.contact-card textarea {
+  width: calc(100% - 50px);
+  display: inline-block;
+  margin-left: 10px;
+  background-color: #f4e896;
+  color: black;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+button.contact-delete-button {
+  background-color: #663399 !important;
+}
+
+button.contact-delete-button:hover {
+  background-color: #553580 !important;
+}
+
+button.contact-sms-button {
+  background-color: #663399 !important;
+}
+
+button.contact-sms-button:hover {
+  background-color: #553580 !important;
+}
+
+button.contact-call-button {
+  background-color: #663399 !important;
+}
+
+button.contact-call-button:hover {
+  background-color: #553580 !important;
+}
+
+button.contact-edit-button {
+  background-color: #663399 !important;
+}
+
+button.contact-edit-button:hover {
+  background-color: #553580 !important;
+}
+#logout-button {
+  background-color: #6c757d;
+  margin-bottom: 20px;
+}
+
+#logout-button:hover {
+  background-color: #5a6268;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+#contact-sms-list-div-* div {
+  background-color: #e9f7ef;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 4px;
+  border-left: 3px solid #28a745;
+}
